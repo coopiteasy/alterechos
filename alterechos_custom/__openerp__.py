@@ -24,4 +24,5 @@
         "account_journal_lock_date",
         "account_archive_journals",
     ],
+    "data": ["data/cron.xml",],
 }
