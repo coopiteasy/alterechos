@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2020 Coop IT Easy
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="ir_cron_compute_is_subscriber" model="ir.cron">
+        <field name="name">Recompute is subscriber field</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="active" eval="False"/>
+        <field name="model">res.partner</field>
+        <field name="function">cron_compute_is_subscriber</field>
+        <field name="args">()</field>
+    </record>
+</odoo>
