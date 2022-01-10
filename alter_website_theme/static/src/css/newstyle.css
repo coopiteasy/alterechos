@@ -9,7 +9,8 @@ a:hover{color:#2C1C99;text-decoration: underline;}
 #top_menu{font-size:14px;}
 #top_menu a{color:#FFFFFF;}
 #top_menu .active a, #top_menu li:hover, #wrapwrap > footer {background:  rgba(21,0,70,1);}
-h1, h2, h3, h4, h5 {font-family: 'Libre Baskerville',serif;font-weight:bold;margin:30px 0;}
+h1, h2, h3, h4, h5 {font-family: 'Libre Baskerville',serif;font-weight:bold;}
+h1, h2, h3, h4 {margin:30px 0;}
 #wrapwrap > footer,footer .row {background: rgba(21,0,70,1);}
 footer{font-size:14px;}
 .hidden-print h4{font-size:17px!important;}
