@@ -1,0 +1,53 @@
+@font-face {
+  font-family:Libre Baskerville;
+  src: url(../fonts/LibreBaskerville-Regular.ttf);
+}
+body{font-family: 'Libre Baskerville', serif;font-size:1em;background:#FFFFFF;color:#0B0626;overflow-x:hidden;}
+.navbar{background:#2C1C99;}
+a{color: rgba(21,0,70,1);text-decoration: none;}
+a:hover{color:#2C1C99;text-decoration: underline;}
+#top_menu{font-size:14px;}
+#top_menu a{color:#FFFFFF;}
+#top_menu .active a, #top_menu li:hover, #wrapwrap > footer {background:  rgba(21,0,70,1);}
+h1, h2, h3, h4, h5 {font-family: 'Libre Baskerville',serif;font-weight:bold;}
+h1, h2, h3, h4 {margin:30px 0;}
+#wrapwrap > footer,footer .row {background: rgba(21,0,70,1);}
+footer{font-size:14px;}
+.hidden-print h4{font-size:17px!important;}
+.hidden-print h4,.hidden-print p,.list-unstyled{font-family: 'Libre Baskerville',serif!important;}
+#wrapwrap > footer .row #products a {background: #E3E2EB;}
+.breadcrumb{font-size:11px;}
+
+/**Formulaire inscription**/
+#add_to_cart, .btn {background: #2C1C99;margin-top:20px;font-size:15px;font-family: 'Libre Baskerville',serif!important;}
+#add_to_cart:hover, .btn:hover{background: #2C1C99;opacity:0.8;}
+.form-group{font-size:16px;font-weight:normal;}
+form.row > div:nth-child(3){padding-left:15px;}
+.oe_subscribe_form{padding-bottom:30px!important;}
+.field-condition{font-size: 14px;margin-bottom: 30px;}
+
+/**Tous les produits**/
+.oe_product h5{font-size:14px;}
+.oe_product h5 a {color: rgba(21,0,70,1);}
+.oe_product h5 a:hover,.pagination > li > a, .pagination > li > span {color:#2C1C99;}
+.pagination{font-size:13px;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {color: #ffffff;background-color: #2C1C99;border-color: #2C1C99;}
+.oe_product .product_price span {padding: 3px 6px;background: rgba(21,0,70,1);color:#FFFFFF;font-size:13px;}
+.input-group-btn .btn{margin-top:0!important;}
+
+/**Page présentation produit**/
+.product_detail_img{margin:40px 0;}
+.container h1{background: #FFFFFF; margin: 0; padding: 40px 0 0 0; font-weight: bold; font-size: 26px;}
+.text-muted {color:#2C1C99!important;font-size:14px!important;font-family: 'Libre Baskerville',serif!important;}
+
+/**Page Contact**/
+.col-md-8 {font-family: 'Libre Baskerville',serif!important;padding-bottom: 70px;min-height: 60%;min-height: 60vh;padding-left: 0;margin-top: 40px;font-size: 15px;}
+address{font-family: 'Libre Baskerville',serif!important;font-size:14px;}
+.mb0 > div:nth-child(1) {font-weight: bold;color:#2C1C99;font-size:16px;}
+address + a { background:#E3E2EB; padding:5px 10px; color:rgba(21,0,70,1)!important; border-radius:3px; -moz-border-radius: 3px; -webkit-border-radius:3px; font-size:12px;}
+
+/**Login**/
+.oe_login_form{background:#E3E2EB;padding: 20px;}
+.field-password{margin-top:30px;}
+.btn.pull-right{float:none;padding:0;background:inherit;margin:20px 0;width:100%;text-align:left;color:#2C1C99!important;text-decoration:underline;}
+.btn.pull-right{text-decoration:underline!important;color:rgba(21,0,70,1)!important;}
